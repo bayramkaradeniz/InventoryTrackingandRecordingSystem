@@ -51,6 +51,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\ICategoryDal.cs" />
+    <Compile Include="Abstract\ICompanyDal.cs" />
+    <Compile Include="Abstract\IEntityRepository.cs" />
+    <Compile Include="Abstract\ILogEntryDal.cs" />
+    <Compile Include="Abstract\IMailDal.cs" />
+    <Compile Include="Abstract\IProductDal.cs" />
+    <Compile Include="Concrete\EfCategoryDal.cs" />
+    <Compile Include="Concrete\EfCompanyDal.cs" />
+    <Compile Include="Concrete\EfEntityRepositoryBase.cs" />
+    <Compile Include="Concrete\EfLogEntryDal.cs" />
+    <Compile Include="Concrete\EfMailDal.cs" />
+    <Compile Include="Concrete\EfProductDal.cs" />
     <Compile Include="Concrete\ItrsContext.cs" />
     <Compile Include="Migrations\202404221039430_CreateDatabase.cs" />
     <Compile Include="Migrations\202404221039430_CreateDatabase.designer.cs">
@@ -63,9 +75,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Abstract\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Itrs.Entites\Itrs.Entites.csproj">
       <Project>{A47E4DA9-9AE8-4306-8502-A3E8A3D572C6}</Project>
