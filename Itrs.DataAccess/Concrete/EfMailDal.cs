@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Itrs.DataAccess.Concrete
 {
-    public class EfMailSender : EfEntityRepositoryBase<Mail, ItrsContext>, IMailDal
+    public class EfMailDal : EfEntityRepositoryBase<Mail, ItrsContext>, IMailDal
     {
 
     }
