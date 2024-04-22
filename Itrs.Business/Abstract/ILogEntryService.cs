@@ -17,3 +17,4 @@ namespace Itrs.Business.Abstract
         void Delete(LogEntry logEntry);
         void LogForUnitPriceUpdate(Product product, string oldStock);
     }
+}

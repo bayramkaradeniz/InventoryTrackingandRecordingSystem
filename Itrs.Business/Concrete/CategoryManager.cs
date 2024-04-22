@@ -1,11 +1,11 @@
 ﻿using Itrs.Business.Abstract;
-using Itrs.DataAccess.Abstract;
 using Itrs.Entites.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Itrs.DataAccess.Abstract;
 
 namespace Itrs.Business.Concrete
 {
@@ -24,4 +24,6 @@ namespace Itrs.Business.Concrete
             return _categoryDal.GetAll();
         }
     }
+
+    
 }
